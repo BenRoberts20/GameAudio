@@ -1,5 +1,92 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5993270104890816469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WalkingStone.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODProject/Build/Desktop/WalkingStone.bank
+  Name: WalkingStone
+  StudioPath: bank:/WalkingStone
+  lastModified: 638453470139776633
+  FileSizes:
+  - Name: Desktop
+    Value: 193536
+  Exists: 1
+--- !u!114 &-2185462683221949525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WalkingGrass.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODProject/Build/Desktop/WalkingGrass.bank
+  Name: WalkingGrass
+  StudioPath: bank:/WalkingGrass
+  lastModified: 638453476408757045
+  FileSizes:
+  - Name: Desktop
+    Value: 386336
+  Exists: 1
+--- !u!114 &-2097125401593527317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SwordSwing.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODProject/Build/Desktop/SwordSwing.bank
+  Name: SwordSwing
+  StudioPath: bank:/SwordSwing
+  lastModified: 638453462060633870
+  FileSizes:
+  - Name: Desktop
+    Value: 18016
+  Exists: 1
+--- !u!114 &-1387523731303790591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WalkingGrass
+  m_EditorClassIdentifier: 
+  Path: event:/WalkingGrass
+  Guid:
+    Data1: -767668561
+    Data2: 1231509869
+    Data3: 1716757437
+    Data4: -998220483
+  Banks:
+  - {fileID: -2185462683221949525}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +99,114 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: 4910894839234216411}
+  - {fileID: 8036064843480705453}
+  - {fileID: -2097125401593527317}
+  - {fileID: -2185462683221949525}
+  - {fileID: -5993270104890816469}
+  EditorEvents:
+  - {fileID: 5146661985604959071}
+  - {fileID: -1387523731303790591}
+  - {fileID: 779059867689036906}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: 8036064843480705453}
+  StringsBanks:
+  - {fileID: 4910894839234216411}
+  cacheTime: 638453476408757045
   cacheVersion: 131609
+--- !u!114 &779059867689036906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WalkingStone
+  m_EditorClassIdentifier: 
+  Path: event:/WalkingStone
+  Guid:
+    Data1: -729729211
+    Data2: 1130193823
+    Data3: 1656851359
+    Data4: 395289754
+  Banks:
+  - {fileID: -5993270104890816469}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &4910894839234216411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODProject/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638453470138120206
+  FileSizes:
+  - Name: Desktop
+    Value: 1006
+  Exists: 1
+--- !u!114 &5146661985604959071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SwordSwing
+  m_EditorClassIdentifier: 
+  Path: event:/SwordSwing
+  Guid:
+    Data1: 1573700473
+    Data2: 1224682108
+    Data3: 369977787
+    Data4: 587395066
+  Banks:
+  - {fileID: -2097125401593527317}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1312
+--- !u!114 &8036064843480705453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODProject/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638453470138115211
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1

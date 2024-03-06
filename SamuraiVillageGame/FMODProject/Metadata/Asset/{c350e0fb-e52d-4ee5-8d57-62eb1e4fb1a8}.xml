@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{c350e0fb-e52d-4ee5-8d57-62eb1e4fb1a8}">
+		<property name="assetPath">
+			<value>SoundEffects/Sword Swings/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{83b8b886-6a78-4987-a264-b7a515863266}</destination>
+		</relationship>
+	</object>
+</objects>
