@@ -74,7 +74,7 @@ public class PlayerFootsteps : MonoBehaviour {
 
     private void PlayFootstep(int terrain)
     {
-        foosteps = FMODUnity.RuntimeManager.CreateInstance("event:/Footsteps");
+        foosteps = FMODUnity.RuntimeManager.CreateInstance("event:/WalkingGrass");
         foosteps.setParameterByName("Terrain", terrain);
         foosteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         foosteps.start();
