@@ -384,9 +384,13 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Farming
+  - Fire
+  - NPCNoises
   - SwordSwing
   - WalkingGrass
   - WalkingStone
+  - WalkingWood
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

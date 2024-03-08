@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{db2c3c2b-eeff-4d73-9dd7-f3975eb952c8}">
+		<property name="name">
+			<value>Wait</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b84ee2ef-45dd-4955-ba95-5f7298148409}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8c1d1e6a-51d1-4831-8d4d-c3812f3e9bec}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8c1d1e6a-51d1-4831-8d4d-c3812f3e9bec}">
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

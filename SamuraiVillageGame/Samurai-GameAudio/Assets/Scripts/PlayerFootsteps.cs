@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerFootsteps : MonoBehaviour {
 
     private enum CURRENT_TERRAIN { GRASS, GRAVEL, WOOD_FLOOR, WATER };
-
+    private string[] LayerSounds = { "event:/WalkingGrass", "event:/WalkingStone", "event:/WalkingWood", "event:/WalkingStone" };
     [SerializeField]
     private CURRENT_TERRAIN currentTerrain;
 
@@ -21,7 +21,7 @@ public class PlayerFootsteps : MonoBehaviour {
         RaycastHit[] hit;
 
         // Originally set at 10.0f, but needs to be set to 0.25 for Robot scenario due to how the level is built.
-        hit = Physics.RaycastAll(transform.position, Vector3.down, 0.25f);
+        hit = Physics.RaycastAll(transform.position, Vector3.down, 10.0f);
 
         foreach (RaycastHit rayhit in hit)
         {
@@ -74,7 +74,8 @@ public class PlayerFootsteps : MonoBehaviour {
 
     private void PlayFootstep(int terrain)
     {
-        foosteps = FMODUnity.RuntimeManager.CreateInstance("event:/WalkingGrass");
+        foosteps.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        foosteps = FMODUnity.RuntimeManager.CreateInstance(LayerSounds[terrain]);
         foosteps.setParameterByName("Terrain", terrain);
         foosteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         foosteps.start();

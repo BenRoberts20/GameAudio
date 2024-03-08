@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{32bc2e43-d032-416f-85aa-09abba8b85de}">
+		<property name="assetPath">
+			<value>SoundEffects/Walking/Wood/Wood Walking 3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.8749886621315195</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{83b8b886-6a78-4987-a264-b7a515863266}</destination>
+		</relationship>
+	</object>
+</objects>

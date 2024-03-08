@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7112317355357969077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/NPCHumming
+  m_EditorClassIdentifier: 
+  Path: event:/NPCHumming
+  Guid:
+    Data1: -1511595287
+    Data2: 1126494787
+    Data3: 335354810
+    Data4: -167517201
+  Banks:
+  - {fileID: 181031934355544111}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 30
+  Length: 1420
 --- !u!114 &-5993270104890816469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,10 +42,30 @@ MonoBehaviour:
   Path: ../FMODProject/Build/Desktop/WalkingStone.bank
   Name: WalkingStone
   StudioPath: bank:/WalkingStone
-  lastModified: 638453470139776633
+  lastModified: 638454666891281799
   FileSizes:
   - Name: Desktop
-    Value: 193536
+    Value: 193408
+  Exists: 1
+--- !u!114 &-5817642962138280521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Farming.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODProject/Build/Desktop/Farming.bank
+  Name: Farming
+  StudioPath: bank:/Farming
+  lastModified: 638454666891471955
+  FileSizes:
+  - Name: Desktop
+    Value: 80896
   Exists: 1
 --- !u!114 &-2185462683221949525
 MonoBehaviour:
@@ -35,10 +82,10 @@ MonoBehaviour:
   Path: ../FMODProject/Build/Desktop/WalkingGrass.bank
   Name: WalkingGrass
   StudioPath: bank:/WalkingGrass
-  lastModified: 638453476408757045
+  lastModified: 638454666891106639
   FileSizes:
   - Name: Desktop
-    Value: 386336
+    Value: 386208
   Exists: 1
 --- !u!114 &-2097125401593527317
 MonoBehaviour:
@@ -55,10 +102,10 @@ MonoBehaviour:
   Path: ../FMODProject/Build/Desktop/SwordSwing.bank
   Name: SwordSwing
   StudioPath: bank:/SwordSwing
-  lastModified: 638453462060633870
+  lastModified: 638454666890936487
   FileSizes:
   - Name: Desktop
-    Value: 18016
+    Value: 17504
   Exists: 1
 --- !u!114 &-1387523731303790591
 MonoBehaviour:
@@ -82,11 +129,31 @@ MonoBehaviour:
   - {fileID: -2185462683221949525}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 31000
+--- !u!114 &-511551664195262008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/WalkingWood.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODProject/Build/Desktop/WalkingWood.bank
+  Name: WalkingWood
+  StudioPath: bank:/WalkingWood
+  lastModified: 638454626843620151
+  FileSizes:
+  - Name: Desktop
+    Value: 66848
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,17 +172,65 @@ MonoBehaviour:
   - {fileID: -2097125401593527317}
   - {fileID: -2185462683221949525}
   - {fileID: -5993270104890816469}
+  - {fileID: 199808579298534402}
+  - {fileID: -511551664195262008}
+  - {fileID: -5817642962138280521}
+  - {fileID: 181031934355544111}
   EditorEvents:
   - {fileID: 5146661985604959071}
   - {fileID: -1387523731303790591}
   - {fileID: 779059867689036906}
+  - {fileID: 4722528745357435112}
+  - {fileID: 3534417382146587469}
+  - {fileID: 1555144807708289710}
+  - {fileID: -7112317355357969077}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8036064843480705453}
   StringsBanks:
   - {fileID: 4910894839234216411}
-  cacheTime: 638453476408757045
+  cacheTime: 638454670335365866
   cacheVersion: 131609
+--- !u!114 &181031934355544111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/NPCNoises.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODProject/Build/Desktop/NPCNoises.bank
+  Name: NPCNoises
+  StudioPath: bank:/NPCNoises
+  lastModified: 638454670335365866
+  FileSizes:
+  - Name: Desktop
+    Value: 43424
+  Exists: 1
+--- !u!114 &199808579298534402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Fire.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMODProject/Build/Desktop/Fire.bank
+  Name: Fire
+  StudioPath: bank:/Fire
+  lastModified: 638454638477074182
+  FileSizes:
+  - Name: Desktop
+    Value: 201024
+  Exists: 1
 --- !u!114 &779059867689036906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,11 +253,92 @@ MonoBehaviour:
   - {fileID: -5993270104890816469}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 10000
+--- !u!114 &1555144807708289710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FarmingPlants
+  m_EditorClassIdentifier: 
+  Path: event:/FarmingPlants
+  Guid:
+    Data1: 1853469708
+    Data2: 1312780995
+    Data3: -1311738986
+    Data4: -964589592
+  Banks:
+  - {fileID: -5817642962138280521}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 35
+  Length: 7500
+--- !u!114 &3534417382146587469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WalkingWood
+  m_EditorClassIdentifier: 
+  Path: event:/WalkingWood
+  Guid:
+    Data1: 941424281
+    Data2: 1079182284
+    Data3: -1734946661
+    Data4: 235217478
+  Banks:
+  - {fileID: -511551664195262008}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6874
+--- !u!114 &4722528745357435112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fire
+  m_EditorClassIdentifier: 
+  Path: event:/Fire
+  Guid:
+    Data1: 1715467016
+    Data2: 1220283405
+    Data3: 1278809223
+    Data4: 1281681721
+  Banks:
+  - {fileID: 199808579298534402}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 35
+  Length: 5228
 --- !u!114 &4910894839234216411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,10 +354,10 @@ MonoBehaviour:
   Path: ../FMODProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638453470138120206
+  lastModified: 638454666890756342
   FileSizes:
   - Name: Desktop
-    Value: 1006
+    Value: 1382
   Exists: 1
 --- !u!114 &5146661985604959071
 MonoBehaviour:
@@ -185,10 +381,10 @@ MonoBehaviour:
   - {fileID: -2097125401593527317}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 75
   Length: 1312
 --- !u!114 &8036064843480705453
 MonoBehaviour:
@@ -205,7 +401,7 @@ MonoBehaviour:
   Path: ../FMODProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638453470138115211
+  lastModified: 638454666890746336
   FileSizes:
   - Name: Desktop
     Value: 1036

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{71eb2914-7769-4b52-8a1f-4d00c0fbf338}">
+		<property name="name">
+			<value>NPCNoises</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1b7e27de-c41d-418b-ae1e-c6174b14b369}</destination>
+		</relationship>
+	</object>
+</objects>
