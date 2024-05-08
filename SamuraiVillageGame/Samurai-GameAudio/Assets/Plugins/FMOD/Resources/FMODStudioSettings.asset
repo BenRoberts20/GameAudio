@@ -391,6 +391,7 @@ MonoBehaviour:
   - WalkingGrass
   - WalkingStone
   - WalkingWood
+  - Wood Oneshots
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
