@@ -166,7 +166,7 @@
 	<object class="SpatialiserEffect" id="{29d8eafe-5d97-47e9-98f2-6cacdf2e03f4}" />
 	<object class="MultibandEqEffect" id="{fe47d96d-ab81-495e-9307-205be929ae94}">
 		<property name="qualityA">
-			<value>0.56048274</value>
+			<value>0.372103453</value>
 		</property>
 		<relationship name="automators">
 			<destination>{011548cb-c264-4a8f-96ed-95227f5b47ff}</destination>
@@ -197,7 +197,7 @@
 			<value>0.014778325123152709</value>
 		</property>
 		<property name="value">
-			<value>21548.8594</value>
+			<value>22000</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{dea0bae6-3d69-42af-a9d5-3d9b47d7d7c3}">
@@ -205,7 +205,7 @@
 			<value>0.41000000000000003</value>
 		</property>
 		<property name="value">
-			<value>4889.26563</value>
+			<value>22000</value>
 		</property>
 		<property name="curveShape">
 			<value>-1</value>
@@ -216,7 +216,7 @@
 			<value>0.62</value>
 		</property>
 		<property name="value">
-			<value>20</value>
+			<value>250.50174</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7ef42e66-5232-4c85-a331-dd5132bd1c6d}">
@@ -224,7 +224,7 @@
 			<value>0.56000000000000005</value>
 		</property>
 		<property name="value">
-			<value>213.027847</value>
+			<value>2482.0083</value>
 		</property>
 	</object>
 </objects>

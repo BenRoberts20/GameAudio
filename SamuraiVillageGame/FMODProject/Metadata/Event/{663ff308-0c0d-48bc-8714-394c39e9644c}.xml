@@ -245,7 +245,7 @@
 			<value>677.211731</value>
 		</property>
 		<property name="qualityA">
-			<value>0.372103453</value>
+			<value>0.476758599</value>
 		</property>
 		<relationship name="automators">
 			<destination>{c7b3c624-fed4-48cd-a8be-653be0105b1d}</destination>
@@ -277,7 +277,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>9215.05664</value>
+			<value>19332.3496</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.204683393</value>
@@ -288,7 +288,7 @@
 			<value>0.41999999999999998</value>
 		</property>
 		<property name="value">
-			<value>20</value>
+			<value>43.0490456</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{6bcc8044-3e54-472b-bb73-ca42a7142b15}">
@@ -296,7 +296,7 @@
 			<value>0.35000000000000003</value>
 		</property>
 		<property name="value">
-			<value>2403.76367</value>
+			<value>5034.49805</value>
 		</property>
 		<property name="curveShape">
 			<value>-1</value>
