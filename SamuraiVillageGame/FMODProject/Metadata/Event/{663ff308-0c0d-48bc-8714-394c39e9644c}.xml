@@ -61,12 +61,12 @@
 			<destination>{94d5788f-72c8-416b-9b94-c600d531b129}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c321f36a-964c-4f57-a58e-c392c0a6a0e0}</destination>
+			<destination>{847d635a-bcbb-47a7-a176-f97abb0cc398}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{32ecd685-5c17-4be1-88ba-358061854449}">
 		<property name="maximumDistance">
-			<value>35</value>
+			<value>30</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{5cf8f74d-b428-4a9b-a69c-9e755e36d6aa}" />
@@ -244,6 +244,9 @@
 		<property name="frequencyA">
 			<value>677.211731</value>
 		</property>
+		<property name="qualityA">
+			<value>0.372103453</value>
+		</property>
 		<relationship name="automators">
 			<destination>{c7b3c624-fed4-48cd-a8be-653be0105b1d}</destination>
 		</relationship>
@@ -274,7 +277,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>22000</value>
+			<value>9215.05664</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.204683393</value>
@@ -293,7 +296,7 @@
 			<value>0.35000000000000003</value>
 		</property>
 		<property name="value">
-			<value>6000</value>
+			<value>2403.76367</value>
 		</property>
 		<property name="curveShape">
 			<value>-1</value>

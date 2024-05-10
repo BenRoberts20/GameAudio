@@ -386,8 +386,11 @@ MonoBehaviour:
   Banks:
   - Farming
   - Fire
+  - Music
   - NPCNoises
+  - Other
   - SwordSwing
+  - UI
   - WalkingGrass
   - WalkingStone
   - WalkingWood

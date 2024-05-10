@@ -18,7 +18,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private void Start()
         {
-
+            Cursor.lockState = CursorLockMode.Locked;
             // get the transform of the main camera
             if (Camera.main != null)
             {
@@ -39,8 +39,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	{
 		if (status)
 		{
-			//Cursor.lockState = CursorLockMode.Locked;
-			//Cursor.visible = false;
+			
 		}
 	}
 

@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{aa9cc74f-6a4b-4f6a-b7c8-0d554c5c4b2c}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{b19ab5a1-3f17-4633-9962-649525421396}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{e820f125-36d2-4dd4-ad46-d6df663d2f17}">
 		<relationship name="masterBus">
@@ -50,10 +53,14 @@
 			<destination>{28871060-b720-4a95-a46a-03e2454e3c36}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c321f36a-964c-4f57-a58e-c392c0a6a0e0}</destination>
+			<destination>{17980b17-054f-4e65-9c7f-cf473e0304e2}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{1a05db0c-26cd-4d2f-823c-7f072ff22e34}" />
+	<object class="EventAutomatableProperties" id="{1a05db0c-26cd-4d2f-823c-7f072ff22e34}">
+		<property name="maximumDistance">
+			<value>50</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{0c4160c3-bfaf-49b9-9610-4c45f3cc7532}" />
 	<object class="GroupTrack" id="{1fc4eae0-561c-46c3-a295-292dfd237f77}">
 		<relationship name="modules">

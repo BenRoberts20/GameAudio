@@ -31,9 +31,6 @@
 		<relationship name="timeline">
 			<destination>{608422b0-1256-4fd9-a5d4-c58c7b70a00a}</destination>
 		</relationship>
-		<relationship name="banks">
-			<destination>{2f3df841-48d0-41b2-9772-37dcaac952d7}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixer" id="{40f69dc3-fbfb-436f-9af2-f0b181681698}">
 		<relationship name="masterBus">
@@ -132,10 +129,10 @@
 	<object class="SpatialiserEffect" id="{56b8e73f-bf38-462e-b554-a41247703d41}" />
 	<object class="MultibandEqEffect" id="{4d2040d7-70d2-47a4-8d58-7709f4d91eda}">
 		<property name="frequencyA">
-			<value>3203.24121</value>
+			<value>9806.01563</value>
 		</property>
 		<property name="qualityA">
-			<value>1.73248279</value>
+			<value>0.330241382</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{e430f140-ba18-4277-a41f-9d3479c09960}" />

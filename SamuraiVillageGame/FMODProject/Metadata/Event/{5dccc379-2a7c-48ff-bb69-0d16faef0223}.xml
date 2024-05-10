@@ -53,12 +53,12 @@
 			<destination>{58181fb7-f012-4087-a791-2d3be1c39395}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c321f36a-964c-4f57-a58e-c392c0a6a0e0}</destination>
+			<destination>{17980b17-054f-4e65-9c7f-cf473e0304e2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f866b45c-0251-49ea-961f-05a2ee729f5e}">
 		<property name="maximumDistance">
-			<value>75</value>
+			<value>50</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{e2922d72-d243-4a09-91b2-8e7d5df427dc}" />
@@ -118,6 +118,7 @@
 		<relationship name="effects">
 			<destination>{185f5cc6-2bcc-4d97-9374-76cea20007b6}</destination>
 			<destination>{5899ca1a-cccc-4e24-a032-e527c300a4a8}</destination>
+			<destination>{5e3dff74-801e-4404-b8be-3e854eeef16e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5ac90014-82b7-4c97-8da2-eeb20802ac6f}" />
@@ -130,5 +131,19 @@
 	<object class="MixerBusPanner" id="{7e33a6e7-9021-4821-aa48-ff0ced2a1bba}" />
 	<object class="MixerBusFader" id="{185f5cc6-2bcc-4d97-9374-76cea20007b6}" />
 	<object class="SpatialiserEffect" id="{5899ca1a-cccc-4e24-a032-e527c300a4a8}" />
+	<object class="PitchShifterEffect" id="{5e3dff74-801e-4404-b8be-3e854eeef16e}">
+		<property name="pitch">
+			<value>1.14999998</value>
+		</property>
+		<property name="fftSize">
+			<value>1180</value>
+		</property>
+		<property name="overlap">
+			<value>13</value>
+		</property>
+		<property name="maxChannels">
+			<value>7.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ca225ea8-edcd-439d-9a1d-e6da6bd68a5e}" />
 </objects>

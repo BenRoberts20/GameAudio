@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerFootsteps : MonoBehaviour {
 
-    private enum CURRENT_TERRAIN { GRASS, GRAVEL, WOOD_FLOOR, WATER };
-    private string[] LayerSounds = { "event:/WalkingGrass", "event:/WalkingStone", "event:/WalkingWood", "event:/WalkingStone" };
+    private enum CURRENT_TERRAIN { GRASS, GRAVEL, WOOD_FLOOR, WATER, SAND };
+    private string[] LayerSounds = { "event:/WalkingGrass", "event:/WalkingStone", "event:/WalkingWoodOS", "event:/WalkingWater", "event:/WalkingSand" };
     [SerializeField]
     private CURRENT_TERRAIN currentTerrain;
 
@@ -43,6 +43,10 @@ public class PlayerFootsteps : MonoBehaviour {
             {
                 currentTerrain = CURRENT_TERRAIN.WATER;
             }
+            else if (rayhit.transform.gameObject.layer == LayerMask.NameToLayer("Sand"))
+            {
+                currentTerrain = CURRENT_TERRAIN.SAND;
+            }
         }
     }
 
@@ -65,7 +69,9 @@ public class PlayerFootsteps : MonoBehaviour {
             case CURRENT_TERRAIN.WATER:
                 PlayFootstep(3);
                 break;
-
+            case CURRENT_TERRAIN.SAND:
+                PlayFootstep(4);
+                break;
             default:
                 PlayFootstep(0);
                 break;

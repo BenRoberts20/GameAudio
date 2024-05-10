@@ -59,7 +59,7 @@
 			<destination>{17b33197-e864-48a3-938a-9dcc325bc8c0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c321f36a-964c-4f57-a58e-c392c0a6a0e0}</destination>
+			<destination>{847d635a-bcbb-47a7-a176-f97abb0cc398}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{98caff97-42c9-44ad-a600-39a5cdc7d290}">
@@ -116,7 +116,7 @@
 	<object class="MixerBusPanner" id="{17b33197-e864-48a3-938a-9dcc325bc8c0}" />
 	<object class="MultiSound" id="{1e6aade9-ff0d-42ca-ae3e-651249fa11c3}">
 		<property name="length">
-			<value>1.4199999999999999</value>
+			<value>1.98</value>
 		</property>
 		<property name="playlistMode">
 			<value>2</value>
@@ -145,7 +145,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>1.4199999999999999</value>
+			<value>1.98</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{7d7564f6-2795-4711-a5f8-015e3ca70551}</destination>
@@ -187,6 +187,9 @@
 	<object class="MixerBusFader" id="{758e1ce8-cce9-480a-be03-e1e6ac3bb316}" />
 	<object class="SpatialiserEffect" id="{7b83b895-b2a4-4fed-8bdb-19214bb8fadd}" />
 	<object class="MultibandEqEffect" id="{73c7c547-ca94-463f-ad2c-cced59c92c63}">
+		<property name="qualityA">
+			<value>0.288379312</value>
+		</property>
 		<relationship name="automators">
 			<destination>{5a8d4554-b30f-4a87-bbcb-dd97e30e4091}</destination>
 		</relationship>
@@ -231,7 +234,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>22000</value>
+			<value>4281.18945</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{723859f2-5785-482b-ae77-e23f016330df}">
@@ -239,7 +242,7 @@
 			<value>0.28999999999999998</value>
 		</property>
 		<property name="value">
-			<value>4500</value>
+			<value>821.46698</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{9e248cf8-825f-4e6f-84e3-bbad025b2048}">
@@ -247,7 +250,7 @@
 			<value>0.46000000000000002</value>
 		</property>
 		<property name="value">
-			<value>900</value>
+			<value>156.850052</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{1688ea21-4f24-47e1-89e2-8b5d66722b84}">

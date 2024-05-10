@@ -53,7 +53,7 @@
 			<destination>{4ee1225c-6a60-4592-8f71-6046129050b8}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c321f36a-964c-4f57-a58e-c392c0a6a0e0}</destination>
+			<destination>{17980b17-054f-4e65-9c7f-cf473e0304e2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6377fa9d-ed9a-49fa-a82e-7939a181c2bc}" />
@@ -132,7 +132,10 @@
 	<object class="SpatialiserEffect" id="{28bf6e04-3a8a-449d-9851-cdabc15a3c02}" />
 	<object class="MultibandEqEffect" id="{acb494c3-c853-44f4-82da-6a8341952730}">
 		<property name="frequencyA">
-			<value>4000</value>
+			<value>6614.95264</value>
+		</property>
+		<property name="qualityA">
+			<value>0.686068952</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{83ae2b06-c83d-44a2-9009-e14af937677c}" />

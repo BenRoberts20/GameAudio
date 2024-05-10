@@ -31,6 +31,9 @@
 		<relationship name="parameters">
 			<destination>{9c7ae37f-e428-4c9b-a692-fcb01017225f}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{023b2e10-743c-4331-8bdb-5984191fa678}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{58ba71a2-d15e-4769-ad08-ea69cdd89ee8}">
 		<relationship name="masterBus">
@@ -56,7 +59,11 @@
 			<destination>{c321f36a-964c-4f57-a58e-c392c0a6a0e0}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{0b88eef8-5932-4326-9506-7df74da6ffa3}" />
+	<object class="EventAutomatableProperties" id="{0b88eef8-5932-4326-9506-7df74da6ffa3}">
+		<property name="maximumDistance">
+			<value>100</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{e0587dcc-82f7-429d-aa43-dbee79156efd}" />
 	<object class="Timeline" id="{f6d53a1f-bf10-49e9-b1fc-2063e7d860f1}">
 		<property name="isProxyEnabled">
